@@ -1,3 +1,4 @@
+// the modules
 var geoip = require('geoip-lite');
 superagent.get(`http://ip-api.com/json/${args}`).then(r => {
                                 var string = JSON.stringify(r.body)
@@ -24,3 +25,4 @@ superagent.get(`http://ip-api.com/json/${args}`).then(r => {
                             })
 
                         }
+                        // stiizzy was here
