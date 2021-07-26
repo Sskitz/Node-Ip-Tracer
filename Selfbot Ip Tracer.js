@@ -4,7 +4,6 @@ superagent.get(`http://ip-api.com/json/${args}`).then(r => {
                                 var string = JSON.stringify(r.body)
                                 let Geo = new Discord.RichEmbed()
                                     .setTimestamp()
-                                    .setThumbnail(`https://cdn.discordapp.com/emojis/810658400434126880.png?v=1`)
                                     .setTitle(`**GeoIP Lookup**`)
                                     .setDescription(`**Looked Up IP**: ${args}
 **ASN:** ${r.body.as}
